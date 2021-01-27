@@ -256,23 +256,27 @@ a:hover {
 }
 
 /* PORTFOLIO PAGE */
-.top-section {
-    padding-top: 100px;
+.portfolio-section {
+    padding-top: 150px;
+    text-align: center;
 }
 
 .portfolio-header {
     margin: auto;
-    margin-bottom: 100px;
     max-width: 800px;
+    padding: 100px 10px 60px 10px;
+    text-align: center;
 }
 
 /*** PROJECT CARDS! ***/
 .project-card {
     background-color: teal;
-    height: 450px;
+    border-radius: 30px;
+    min-height: 300px;
     width: 100%;
-    padding: 40px;
+    padding: 20px;
     position: relative;
+    margin-bottom: 40px;
 }
 
 .project-overlay {
@@ -442,6 +446,18 @@ footer {
 
     .hero-intro {
         font-size: 48px;
+    }
+
+    .portfolio-spacer {
+        height: 100px;
+    }
+
+    .portfolio-header {
+        padding: 50px 15px;
+    }
+
+    .project-card {
+        min-height: 450px;
     }
 
  }
