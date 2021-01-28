@@ -198,31 +198,26 @@ a:hover {
     color: white;
 }
 
-/* HOME-SKILLS SECTION */
+/* HOME-WORK SECTION */
 
-.bg-lilac {
-    background-color: #EAEFFD;
-    padding: 100px 0;
+.home-work-section{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: flex-start;
 }
 
-.card {
-    background-color: #EAEFFD;
-    border-style: none;
-    margin: auto;
-    padding: 20px;
-    text-align: center;
+.home-work-sticky {
+    flex: none;
+    width: 50%;
+    position: sticky;
+    top: 160px;
 }
 
-.card-title {
-    font-family: new-spirit, serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 1.2; 
-}
-
-.card-body {
-    padding-top: 30px;
+.home-work-cards {
+    width: 50%;
+    position: static;
 }
 
 /* CONTACT PAGE */
@@ -380,6 +375,15 @@ footer {
     color: #FFFFFFc5;
     text-decoration: none;
     transition: .3s ease;
+}
+
+.relative {
+    position: relative;
+}
+
+.sticky {
+    position: sticky;
+    top: 100px;
 }
 
 /* Media queries */
