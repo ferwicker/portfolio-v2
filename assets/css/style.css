@@ -37,7 +37,7 @@ h3 {
 }
 
 .page-container {
-    overflow: hidden;
+    /*overflow: hidden;*/
     margin-bottom: 400px;
     max-width: 100vw;
 }
