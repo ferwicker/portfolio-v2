@@ -214,7 +214,6 @@ a:hover {
 
 .home-work-sticky {
     flex: none;
-    width: 50%;
     position: sticky;
     top: 160px;
 }
@@ -303,8 +302,22 @@ a:hover {
     background-size: cover;
 }
 
+.home-card-weather {
+    background-image: url("../images/weather-dashboard-image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .card-quiz {
     background-image: url("../images/code-quiz.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.home-card-quiz {
+    background-image: url("../images/quiz-image.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; 
@@ -318,7 +331,7 @@ a:hover {
 }
 
 .card-planner {
-    background-image: url("../images/DAILY-PLANNER.jpg");
+    background-image: url("../images/planner-image.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; 
@@ -330,7 +343,7 @@ a:hover {
     background-image: url("../images/abstract-gradient-7.jpg");
     color: white;
     min-height: 50vh;
-    padding: 120px 20px 40px 20px;
+    padding: 140px 20px 80px 20px;
     text-align: center;
     z-index: 50;
 }
@@ -355,6 +368,7 @@ a:hover {
     font-family: termina,sans-serif;
     font-size: 36px;
     font-weight: 500;
+    margin-top: 40px;
 }
 
 .technologies span {
@@ -367,6 +381,10 @@ a:hover {
     border-radius: 30px;
     box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, 0.05);
     margin: 40px 0;
+    max-width: 100%;
+}
+
+.mobile-mockup {
     width: 100%;
 }
 
@@ -390,6 +408,7 @@ footer {
     font-family: new-spirit,serif;
     font-size: 36px;
     font-weight: 500;
+    margin-bottom: 30px;
 }
 
 .brand-footer:hover {
@@ -508,6 +527,10 @@ footer {
 
     .project-name {
         font-size: 48px;
+    }
+
+    .technologies h2 {
+        margin-top: 0;
     }
 
     .technologies span {
