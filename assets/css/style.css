@@ -331,8 +331,8 @@ a:hover {
 }
 
 .card-planner {
-    background-image: url("../images/planner-image.png");
-    background-position: center;
+    background-image: url("../images/DAILY-PLANNER.jpg");
+    background-position: left;
     background-repeat: no-repeat;
     background-size: cover; 
 }
@@ -346,6 +346,11 @@ a:hover {
     padding: 140px 20px 80px 20px;
     text-align: center;
     z-index: 50;
+}
+
+.project-intro {
+    margin: 40px auto;
+    max-width: 800px;
 }
 
 .btn-white {
@@ -386,6 +391,15 @@ a:hover {
 
 .mobile-mockup {
     width: 100%;
+    margin-bottom: 40px;
+}
+
+.content-center {
+    text-align: center;
+}
+
+.btn-margin {
+    margin: 20px 20px 20px 0;
 }
 
 /* FOOTER */
@@ -537,6 +551,10 @@ footer {
         font-family: termina, sans-serif;
         font-size: 24px;
         margin: 20px;
+    }
+
+    .content-center {
+        text-align: left;
     }
 
  }
