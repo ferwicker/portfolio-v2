@@ -14,6 +14,8 @@ This project presents my recent work as a web developer and designer in a fun an
 ## Motivation
 Having an up to date and good looking portfolio is essential for all creatives and especially web developers. It is a fun porject and a chance to feature your skills in their best light. 
 
+![Portfolio hero](assets/readme%20images/portfolio-hero.jpg)
+
 ## Process
 The process of updating the portfolio started with a review of the content in the previous version. I decided to simplify the content a lot and leave focus on the projects. 
 
@@ -35,7 +37,9 @@ I used Javascript to set the link to the download button accross all pages. Sinc
 ## Roadmap
 Skills and projects are always evolving. To make the updating of this project seamless, I plan to have new projects generated dynamically with Javascript in the near future.
 
-### [See deployed application](https://ferwicker.github.io/weather-dashboard/)
+### [See deployed application](https://ferwicker.github.io/portfolio/)
+
+![Portfolio mobile](assets/readme%20images/portfolio-mobile.jpg)
 
 ## Credits
 - All icons from [Fontawesome](https://fontawesome.com/)
