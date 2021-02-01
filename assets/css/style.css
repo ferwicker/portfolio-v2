@@ -399,7 +399,7 @@ a:hover {
 }
 
 .btn-margin {
-    margin: 20px 20px 20px 0;
+    margin: 20px 0;
 }
 
 /* FOOTER */
@@ -556,6 +556,10 @@ footer {
     .content-center {
         margin-top: 40px;
         text-align: left;
+    }
+
+    .btn-margin {
+        margin: 20px 30px;
     }
 
  }

@@ -89,8 +89,9 @@
                 <span>javascript</span>
                 <span>bootstrap</span>              
             </div>
-            <p>
-                project intro
+            <p class="project-intro">
+                This project presents a fun and easy to use quiz to gamify learning of HTML, CSS and Javascript. 
+                The High Scores function helps make this even more fun by allowing the user to compete with friends for the highest score!
             </p>
         </div> 
         
@@ -101,13 +102,26 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-8">
+                <div class="col-md-8 content-center">
+                    <p>As with every project, the first step is doing some brainstorming about possible approaches and putting some ideas down on paper as rough (very rough!) sketches.</p>
+                    <p>The next step is the design, which as a graphic designer is so much fun! I mock up the application on Adobe XD. For this project, I used a mobile-first approach to ensure the best experience on all screen sizes.</p>
                     <p>
-                        project description
+                        The main challenge during the development of this project was the questions displaying and being checked. Although the initial working application used a form with radio buttons and a 'Next' button, 
+                        the final version uses dynamically modified HTML and event listeners on the answers themselved to check. This simplifies the user experience and allows for faster play.
+                    </p>
+                    <p>
+                        The quiz has a 60 second timer and score counter. When a user chooses the correct answer, the score goes up by one, when the answer is wrong, the time left decreases by 5 seconds. At the end of the quiz, 
+                        the user inputs their name to save the score to local storage and the High Scores are displayed on the screen. The user can clear the scores or play again.
                     </p>
                 </div>
                 <div class="col-md-4">
                     <img src="../../assets/images/quiz-mobile.png" alt="Code Quiz mobile" class="mobile-mockup">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex flex-md-row flex-column justify-content-center">
+                    <a role="button" class="btn btn-dark btn-margin" href="https://ferwicker.github.io/code-quiz/" target="_blank">deployed project</a>
+                    <a role="button" class="btn btn-dark btn-margin" href="https://github.com/ferwicker/code-quiz/" target="_blank">github repo</a>
                 </div>
             </div>
         </div>
