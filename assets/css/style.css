@@ -114,7 +114,7 @@ a:hover {
 .nav-container {
     padding: 8px 20px;
     z-index: 99;
-    background: rgba( 0, 0, 0, 0.30 );
+    background: rgba( 0, 0, 0, 0.60 );
     backdrop-filter: blur( 30.0px );
 }
 
@@ -216,6 +216,7 @@ a:hover {
     flex: none;
     position: sticky;
     top: 160px;
+    margin-bottom: 40px;
 }
 
 .home-work-cards {
@@ -463,6 +464,7 @@ footer {
 
     .nav-container {
         padding: 10px 60px;
+        background: rgba( 0, 0, 0, 0.30 );
     }
 
     a.nav-link {
