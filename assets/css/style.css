@@ -331,6 +331,13 @@ a:hover {
     background-size: cover; 
 }
 
+.card-burger {
+    background-image: url("../images/burger-image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
 .card-planner {
     background-image: url("../images/DAILY-PLANNER.jpg");
     background-position: left;
