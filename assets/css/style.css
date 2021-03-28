@@ -345,6 +345,13 @@ a:hover {
     background-size: cover; 
 }
 
+.card-wall {
+    background-image: url("../images/message-wall-image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 /* PROJECT PAGE */
 
 .project-header {
