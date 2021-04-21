@@ -338,6 +338,13 @@ a:hover {
     background-size: cover; 
 }
 
+.card-teamspark {
+    background-image: url("../images/team-illustration.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
 .card-planner {
     background-image: url("../images/DAILY-PLANNER.jpg");
     background-position: left;
